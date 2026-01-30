@@ -1,7 +1,8 @@
 // ignore_for_file: sort_child_properties_last
 
-
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/views/login_ui.dart';
+import 'package:flutter_application_1/views/signup_ui.dart';
 
 class HomeUi extends StatelessWidget {
   const HomeUi({super.key});
@@ -50,42 +51,56 @@ class HomeUi extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                  OutlinedButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Login",
-                      style: TextStyle(
-                        color: Colors.black,
+                    OutlinedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => LoginUi(),
+                          ),
+                        );
+                      },
+                      child: Text(
+                        "Login",
+                        style: TextStyle(
+                          color: Colors.black,
+                        ),
+                      ),
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(
+                          color: Colors.black,
+                        ),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        fixedSize: Size(150, 55),
                       ),
                     ),
-                    style: OutlinedButton.styleFrom(
-                      side: BorderSide(
-                        color: Colors.black,
+                    SizedBox(width: 20),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SignupUi(),
+                            ),
+                          );
+                      },
+                      child: Text(
+                        "Sign Up",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
                       ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.black,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        fixedSize: Size(150, 55),
                       ),
-                      fixedSize: Size(150, 55),
                     ),
-                  ),
-                  SizedBox(width: 20),
-                  ElevatedButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Sign Up",
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.black,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      fixedSize: Size(150, 55),
-                    ),
-                  ),
-                ],
+                  ],
                 ),
               ),
             ),
