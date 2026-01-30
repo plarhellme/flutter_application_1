@@ -1,16 +1,11 @@
 # flutter_application_1
 
-A new Flutter project.
+A Example Flutter Project for Education.
 
-## Getting Started
+If this Project has a error or problem you can make a issue ticket in this link.
+https://github.com/plarhellme/flutter_application_1/issues
 
-This project is a starting point for a Flutter application.
+And I'll reply and fix it. (If possible and clearly point)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+More about me.
+https://linktr.ee/Anomaly_VI
