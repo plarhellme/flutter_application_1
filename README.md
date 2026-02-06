@@ -17,4 +17,5 @@ Ex. pic
 
 ## More about me.
 https://linktr.ee/Anomaly_VI
+
 https://discord.gg/UFvAmvx
